@@ -9,8 +9,8 @@ func main() {
 	//declare a variable
 	var s, sep string
 	//use a looping statement
-	// initialise    condition        increment
-	for i := 1;      i < len(os.Args); i++ {
+	// initialise    condition        increment statement
+	for i := 1; i < len(os.Args); i++ {
 		s += sep + os.Args[i]
 		sep = " "
 	}
